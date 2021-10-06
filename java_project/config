@@ -1,0 +1,8 @@
+version=1.0
+pcapInputPath=/Users/zsz/behaviorAnalysis/minehunter_v2-master/data/total_traffic/web_service/my_test_2/sumokoin.pcap
+blockFilePath=/Users/zsz/behaviorAnalysis/monerod-p2p-network/monero_blockinfo/sumokoin_blockinfo_12.21.08.csv
+outPutPath=res/web_service/detect_10.csv
+blockIntervalThres=10
+packetLenThres=66
+globalTableSizeThres=10000
+detectTimeScope=[60,118]

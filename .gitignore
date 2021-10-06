@@ -1,0 +1,52 @@
+# java
+*.class
+*.jar
+*.war
+*.ear
+/java_project/bin/*
+/java_project/res/*
+
+# Eclipse
+/java_project/.project
+/java_project/.classpath
+/java_project/.settings
+.project
+.classpath
+.settings
+
+# Idea
+.idea
+*.iml
+*.iws
+*.ipr
+
+# OS
+Thumbs.db
+.DS_Store
+/java_project/.DS_Store
+
+# Gradle
+.gradle
+!gradle-wrapper.jar
+
+# Maven
+target
+
+# Build
+out
+build
+bin
+
+# Other
+*.log
+*.swp
+*.bak
+
+#data
+/data
+/linux_test
+/relatedpaper
+/res
+/jar
+/bin
+/python_code/reproduction_cryptomining
