@@ -37,10 +37,10 @@ MineHunter is a practical cryptomining traffic detection algorithm based on time
 		(3) flow_name: Source_destination ip address.
 		(4) sim: Global similarity. According to the experimental results in the paper, when the general sim>0.6, it can be determined that the flow is suspected to be cryptomining. 
 
-##DATA Storage link
+## DATA Storage link
 
 To be updated
 
 
-##REFERENCES
+## REFERENCES
 [1] https://monerodocs.org/interacting/monerod-reference/
