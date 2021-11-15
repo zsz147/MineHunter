@@ -13,17 +13,20 @@ MineHunter is a practical cryptomining traffic detection algorithm based on time
 
 # How to start?
 
-##Running Step 1——Getting Block Info
+## Running Step 1——Getting Block Info
+
 1：Use the monerod tool to join the monero blockchain network and collect block creation information at the same time. The running configuration file of the monerod tool is block\_collect\_script/monerod.conf. (Other cryptocurrencies can use similar tools).
 
 2：Use block\_collect\_script/monerod\_log\_analysis.py to process the original logs collected by monerod to obtain block creation time information.
 
-##Running Step 2——Running detection algorithm
+## Running Step 2——Running detection algorithm
+
 1: Package the java source code in java\_project to generate a java binary run jar package.
 
 2: Modify the config file in java\_project, including the path of the original traffic, the path of block information, etc.
 
-##Running Step 3——Getting results
+## Running Step 3——Getting results
+
 1: Run the command: java -jar ./main.jar
 
 2: Result file description:
